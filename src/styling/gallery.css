@@ -1,0 +1,64 @@
+@import url("https://use.typekit.net/bza5quc.css");
+#homeLink,
+#galleryLink {
+  text-decoration: none;
+  color: #575757;
+  font-family: futura-pt, sans-serif;
+}
+
+#homeLink {
+  font-weight: 600;
+}
+.fullBody {
+  display: grid;
+  place-items: center;
+}
+.Nav {
+  grid-area: nav;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  justify-items: center;
+}
+.rectangle {
+  background-color: white;
+  margin: 10px;
+}
+.masonry {
+  width: 85vw;
+  /* Masonry container */
+  column-count: 3;
+  column-gap: 1em;
+}
+img {
+  transition: 0.45s;
+}
+img:hover {
+  opacity: 55%;
+  transition: 0.45s;
+}
+.item {
+  /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .masonry {
+    column-count: 2;
+  }
+  .rectangle {
+    max-width: 60vw;
+    max-height: 25vw;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .rectangle {
+    margin: 35px;
+    max-width: 40vw;
+    max-height: 25vw;
+  }
+}
