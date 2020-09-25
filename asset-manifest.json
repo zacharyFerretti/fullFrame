@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fullFrame/static/css/main.f62d4294.chunk.css",
+    "main.css": "/fullFrame/static/css/main.6fc78eee.chunk.css",
     "main.js": "/fullFrame/static/js/main.f510205c.chunk.js",
     "main.js.map": "/fullFrame/static/js/main.f510205c.chunk.js.map",
     "runtime-main.js": "/fullFrame/static/js/runtime-main.e48da9f1.js",
@@ -9,10 +9,10 @@
     "static/js/2.6ee7bb9e.chunk.js": "/fullFrame/static/js/2.6ee7bb9e.chunk.js",
     "static/js/2.6ee7bb9e.chunk.js.map": "/fullFrame/static/js/2.6ee7bb9e.chunk.js.map",
     "index.html": "/fullFrame/index.html",
-    "precache-manifest.e270d21c217a7dcd7dd6845981cd2508.js": "/fullFrame/precache-manifest.e270d21c217a7dcd7dd6845981cd2508.js",
+    "precache-manifest.b55861863e25ec763888eaf7a11825f8.js": "/fullFrame/precache-manifest.b55861863e25ec763888eaf7a11825f8.js",
     "service-worker.js": "/fullFrame/service-worker.js",
     "static/css/2.c37a399a.chunk.css.map": "/fullFrame/static/css/2.c37a399a.chunk.css.map",
-    "static/css/main.f62d4294.chunk.css.map": "/fullFrame/static/css/main.f62d4294.chunk.css.map",
+    "static/css/main.6fc78eee.chunk.css.map": "/fullFrame/static/css/main.6fc78eee.chunk.css.map",
     "static/js/2.6ee7bb9e.chunk.js.LICENSE.txt": "/fullFrame/static/js/2.6ee7bb9e.chunk.js.LICENSE.txt",
     "static/media/Lovely - Basel.jpg": "/fullFrame/static/media/Lovely - Basel.7168f69c.jpg",
     "static/media/Lower Den.jpg": "/fullFrame/static/media/Lower Den.409125cb.jpg",
@@ -121,7 +121,7 @@
     "static/js/runtime-main.e48da9f1.js",
     "static/css/2.c37a399a.chunk.css",
     "static/js/2.6ee7bb9e.chunk.js",
-    "static/css/main.f62d4294.chunk.css",
+    "static/css/main.6fc78eee.chunk.css",
     "static/js/main.f510205c.chunk.js"
   ]
 }
