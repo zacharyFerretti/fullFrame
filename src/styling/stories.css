@@ -67,10 +67,10 @@
   color: rgba(0, 0, 0, 0.5);
   text-align: left;
 }
-.box:hover {
+/*box:hover {
   transition: 0.5s;
-  opacity: 65%;
-}
+  opacity: 0.65;
+}*/
 @media only screen and (max-width: 600px) {
   #pano {
     width: 80vw;

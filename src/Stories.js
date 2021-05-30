@@ -13,36 +13,49 @@ import Stories2017 from "./components/2017";
 import Stories2018 from "./components/2018";
 import Stories2019 from "./components/2019";
 import Stories2020 from "./components/2020";
+import Stories2021 from "./components/2021";
 
 function Gallery() {
   const [show2017, setShow2017] = React.useState(false);
   const [show2018, setShow2018] = React.useState(false);
   const [show2019, setShow2019] = React.useState(false);
   const [show2020, setShow2020] = React.useState(false);
+  const [show2021, setShow2021] = React.useState(false);
   const [isShown2020, setIsShown2020] = React.useState(false);
   const onClick2017 = () => {
     setShow2017(!show2017);
     setShow2018(false);
     setShow2019(false);
     setShow2020(false);
+    setShow2021(false);
   };
   const onClick2018 = () => {
     setShow2017(false);
     setShow2018(!show2018);
     setShow2019(false);
     setShow2020(false);
+    setShow2021(false);
   };
   const onClick2019 = () => {
     setShow2017(false);
     setShow2018(false);
     setShow2019(!show2019);
     setShow2020(false);
+    setShow2021(false);
   };
   const onClick2020 = () => {
     setShow2017(false);
     setShow2018(false);
     setShow2019(false);
     setShow2020(!show2020);
+    setShow2021(false);
+  };
+  const onClick2021 = () => {
+    setShow2017(false);
+    setShow2018(false);
+    setShow2019(false);
+    setShow2020(false);
+    setShow2021(!show2021);
   };
   return (
     <div className="Temp">
@@ -77,6 +90,9 @@ function Gallery() {
       */}
       {/*<p class="storyText">Where was I in...</p>*/}
       <div id="buttonRow">
+        <button onClick={onClick2021} class="FilteringButtons">
+          {show2021 ? <p style={{ color: `rgba(0,0,0,.5)` }}>2021</p> : 2021}
+        </button>
         <button onClick={onClick2020} class="FilteringButtons">
           {show2020 ? <p style={{ color: `rgba(0,0,0,.5)` }}>2020</p> : 2020}
         </button>
@@ -89,10 +105,11 @@ function Gallery() {
         <button onClick={onClick2017} class="FilteringButtons">
           {show2017 ? <p style={{ color: `rgba(0,0,0,.5)` }}>2017</p> : 2017}
         </button>
-        {show2017 || show2018 || show2019 || show2020 ? null : (
+        {show2017 || show2018 || show2019 || show2020 || show2021 ? null : (
           <p style={{ color: `rgba(0,0,0,.5)` }}> Go ahead click one...</p>
         )}
       </div>
+      {show2021 ? <Stories2021 /> : null}
       {show2020 ? <Stories2020 /> : null}
       {show2019 ? <Stories2019 /> : null}
       {show2018 ? <Stories2018 /> : null}

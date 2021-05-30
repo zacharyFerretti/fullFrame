@@ -30,13 +30,13 @@
   column-count: 3;
   column-gap: 1em;
 }
-img {
+/*img {
   transition: 0.45s;
 }
 img:hover {
-  opacity: 55%;
+  opacity: 0.65;
   transition: 0.45s;
-}
+}*/
 .item {
   /* Masonry bricks or child elements */
   background-color: #eee;

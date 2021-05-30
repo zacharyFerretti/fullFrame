@@ -7,7 +7,6 @@ import "../styling/stories.css";
 import "rsuite/dist/styles/rsuite-default.css";
 
 // 2020 Story Images
-import zakim from "../images/2020/zakimFall.JPG";
 import boston from "../images/2020/bos.JPG";
 import foggyFalls from "../images/2020/foggyFalls.JPG";
 import bashbish from "../images/2020/bashbish.JPG";
@@ -18,7 +17,7 @@ import simpleBeach from "../images/2020/simpleBeach.JPG";
 import lonesomeFog from "../images/2020/lonesomeFog.jpg";
 import bloom from "../images/2020/bloom.jpg";
 
-const Stories2020 = () => (
+const Stories2021 = () => (
   <div>
     <p class="storyText">
       {" "}
@@ -53,36 +52,6 @@ const Stories2020 = () => (
           in my heart for so long and the lifestyle I've been afforded by moving
           here is spectacular. I love walking everywhere I need to go and always
           being near so many incredibly interesting sights and sounds.
-        </div>
-      </div>
-      <div class="photoContainer">
-        <div class="box" style={{ backgroundImage: `url(${boston})` }}></div>
-        <div class="bottomText">Boston</div>
-        <div class="subTitle">
-          September 2020 - I consider myself incredibly blessed to be living the
-          life I am right now in the city. Boston has held such a special place
-          in my heart for so long and the lifestyle I've been afforded by moving
-          here is spectacular. I love walking everywhere I need to go and always
-          being near so many incredibly interesting sights and sounds.
-        </div>
-      </div>
-      <div class="photoContainer">
-        <div class="box" style={{ backgroundImage: `url(${boston})` }}></div>
-        <div class="bottomText">Boston</div>
-        <div class="subTitle">
-          September 2020 - I consider myself incredibly blessed to be living the
-          life I am right now in the city. Boston has held such a special place
-          in my heart for so long and the lifestyle I've been afforded by moving
-          here is spectacular. I love walking everywhere I need to go and always
-          being near so many incredibly interesting sights and sounds.
-        </div>
-      </div>
-      <div class="photoContainer">
-        <div class="box" style={{ backgroundImage: `url(${zakim})` }}></div>
-        <div class="bottomText">Boston</div>
-        <div class="subTitle">
-          September 2020 - The shadow of the Zakim falls heavy on the city
-          during nights like these in the fall.
         </div>
       </div>
       <div class="photoContainer">
@@ -219,4 +188,4 @@ const Stories2020 = () => (
   </div>
 );
 
-export default Stories2020;
+export default Stories2021;
